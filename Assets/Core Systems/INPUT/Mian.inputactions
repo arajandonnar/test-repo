@@ -1,0 +1,52 @@
+{
+    "version": 1,
+    "name": "Mian",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "34a647d4-f9e0-49e1-99c7-8af3e73a7f76",
+            "actions": [
+                {
+                    "name": "Leftclick",
+                    "type": "Button",
+                    "id": "4cee569d-44ed-4ffb-99fc-01e2f0847ee3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ddae16b4-dbb0-4b3f-827d-245c2e0bd951",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Leftclick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New Control Scheme",
+            "bindingGroup": "New Control Scheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
