@@ -4,17 +4,33 @@ using UnityEngine.InputSystem;
 public class MBS_input : MonoBehaviour
 {
 
+
+
     [SerializeField]
-    //InputAction = context;
+    private CharacterController cc;
 
-    //CharacterController = cc;
-    
-
-
-    void Start()
+    private bool leftClick;
+    public void MouseInput(InputAction.CallbackContext context)
     {
+        if (context.started)
+        {
+
+            //DestroyObject(GameObject.);
+            Debug.Log("started");
+        }
+
+
         
     }
 
-    
+    private void Update()
+    {
+        if(cc != null)
+        {
+
+        }
+    }
+
+
+
 }
