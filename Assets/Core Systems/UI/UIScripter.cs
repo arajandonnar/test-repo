@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEditor;
+using UnityEngine.SceneManagement;
 
 public class UIScripter : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class UIScripter : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("HoldingScreenSpwan");
         uiElement = Instantiate(HoldingScreen);
         uiElement.transform.SetParent(canvasTransform, false);
         inputReference.isonholdingscreen = true;
@@ -35,6 +37,11 @@ public class UIScripter : MonoBehaviour
             menu.manager = this;
         }
         
+        
+    }
+
+    public void OpenGame()
+    {
         
     }
 

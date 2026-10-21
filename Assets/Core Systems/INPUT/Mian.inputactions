@@ -3,7 +3,7 @@
     "name": "Mian",
     "maps": [
         {
-            "name": "New action map",
+            "name": "UI",
             "id": "34a647d4-f9e0-49e1-99c7-8af3e73a7f76",
             "actions": [
                 {
@@ -23,7 +23,7 @@
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";M&K",
                     "action": "Leftclick",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -33,8 +33,8 @@
     ],
     "controlSchemes": [
         {
-            "name": "New Control Scheme",
-            "bindingGroup": "New Control Scheme",
+            "name": "M&K",
+            "bindingGroup": "M&K",
             "devices": [
                 {
                     "devicePath": "<Keyboard>",

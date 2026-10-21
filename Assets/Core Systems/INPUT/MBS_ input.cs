@@ -12,8 +12,10 @@ public class MBS_input : MonoBehaviour
     public bool isonholdingscreen;
     public void MouseInput(InputAction.CallbackContext context)
     {
+        Debug.Log("LMBDETECTED");
         if (context.started)
         {
+            Debug.Log("LeftMB");
             if (isonholdingscreen == true)
             {
                 Destroy(UIScripterReference.uiElement);
@@ -26,13 +28,7 @@ public class MBS_input : MonoBehaviour
         
     }
 
-    private void Update()
-    {
-        if(cc != null)
-        {
-
-        }
-    }
+    
 
 
 
