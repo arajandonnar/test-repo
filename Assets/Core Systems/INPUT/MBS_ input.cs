@@ -16,6 +16,7 @@ public class MBS_input : MonoBehaviour
         if (context.started)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             Debug.Log("LeftMB");
             if (isonholdingscreen == true)
             {
@@ -23,6 +24,11 @@ public class MBS_input : MonoBehaviour
                 UIScripterReference.SpawnMainMenu();
                 Debug.Log("started");
             }
+=======
+
+            //DestroyObject(GameObject.);
+            Debug.Log("started");
+>>>>>>> parent of 31104d4 (begun implementation of more core UI Systems)
 =======
 
             //DestroyObject(GameObject.);

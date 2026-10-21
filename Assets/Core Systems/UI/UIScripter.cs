@@ -10,6 +10,7 @@ public class UIScripter : MonoBehaviour
     void Start()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Debug.Log("HoldingScreenSpwan");
         uiElement = Instantiate(HoldingScreen);
 =======
@@ -47,5 +48,11 @@ public class UIScripter : MonoBehaviour
         Debug.Log("SettingSpawned");
     }
 =======
+>>>>>>> parent of 31104d4 (begun implementation of more core UI Systems)
+=======
+        GameObject uiElement = Instantiate(HoldingScreen);
+        uiElement.transform.SetParent(canvasTransform, false);
+        
+    }
 >>>>>>> parent of 31104d4 (begun implementation of more core UI Systems)
 }

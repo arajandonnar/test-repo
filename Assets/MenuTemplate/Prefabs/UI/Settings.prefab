@@ -8644,6 +8644,7 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &3272765938500284763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8657,6 +8658,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   qualityDropdown: {fileID: 0}
+=======
+>>>>>>> parent of 31104d4 (begun implementation of more core UI Systems)
 =======
 >>>>>>> parent of 31104d4 (begun implementation of more core UI Systems)
 --- !u!1 &3433055689203435577
