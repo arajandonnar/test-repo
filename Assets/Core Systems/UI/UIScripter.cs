@@ -5,25 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class UIScripter : MonoBehaviour
 {
-    [SerializeField]
-    MBS_input inputReference;
-
     public GameObject HoldingScreen;
-    public GameObject MainMenu;
-    public GameObject Settings;
     public Transform canvasTransform;
-
-    [HideInInspector]
-    public GameObject uiElement;
-
     void Start()
     {
+<<<<<<< HEAD
         Debug.Log("HoldingScreenSpwan");
         uiElement = Instantiate(HoldingScreen);
+=======
+        GameObject uiElement = Instantiate(HoldingScreen);
+>>>>>>> parent of 31104d4 (begun implementation of more core UI Systems)
         uiElement.transform.SetParent(canvasTransform, false);
-        inputReference.isonholdingscreen = true;
         
     }
+<<<<<<< HEAD
 
     public void SpawnMainMenu()
     {
@@ -51,4 +46,6 @@ public class UIScripter : MonoBehaviour
         uiElement.transform.SetParent(canvasTransform, false);
         Debug.Log("SettingSpawned");
     }
+=======
+>>>>>>> parent of 31104d4 (begun implementation of more core UI Systems)
 }
