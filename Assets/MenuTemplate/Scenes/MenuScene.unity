@@ -622,6 +622,7 @@ MonoBehaviour:
   inputReference: {fileID: 1736511133}
   HoldingScreen: {fileID: 2133443205445293769, guid: d35aaceb8b8c526438c7c0a7fd94ea75, type: 3}
   MainMenu: {fileID: 3108183751971265813, guid: f25d34a99bbc8bd4f8becb322b843021, type: 3}
+  ConfExit: {fileID: 8685169679145711077, guid: e91f13b6a9f1f4a4093a8b71395895cc, type: 3}
   Settings: {fileID: 3431491195062580925, guid: d0f0627616a502043b5dedcced67574e, type: 3}
   canvasTransform: {fileID: 996673653}
   uiElement: {fileID: 0}

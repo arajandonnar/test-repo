@@ -9,6 +9,7 @@ public class UIScripter : MonoBehaviour
 
     public GameObject HoldingScreen;
     public GameObject MainMenu;
+    public GameObject ConfExit;
     public GameObject Settings;
     public Transform canvasTransform;
 
@@ -43,5 +44,24 @@ public class UIScripter : MonoBehaviour
         uiElement = Instantiate(Settings);
         uiElement.transform.SetParent(canvasTransform, false);
         Debug.Log("SettingSpawned");
+
+        if (uiElement.TryGetComponent<Settings>(out Settings setting))
+        {
+            setting.UIScripterReference = this;
+        }
+    }
+
+    public void OpenLockin()
+    {
+        uiElement = Instantiate(ConfExit);
+        uiElement.transform.SetParent(canvasTransform, false);
+        Debug.Log("You REALLY WANT TO LEAVE ?");
+
+        if (uiElement.TryGetComponent<Lickin>(out Lickin LockIn))
+        {
+            LockIn.UIScripterReference = this;
+        }
+
     }
 }
+ 
